@@ -14,7 +14,10 @@
         <br>
         <br>
         <label for="esx">Password:</label>
-        <input type="password" pattern= "(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*]{8,})" id="esx">
+        <input type="password" 
+        id="esx" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+        title="Password must contain at least one uppercase letter, one lowercase letter, one number, and be at least 8 characters long" 
+        required>
         <br>
         <br>
         <button type="submit" style="color: black;" formaction="./wel.html">Login</button>

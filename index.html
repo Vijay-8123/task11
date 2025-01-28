@@ -24,11 +24,17 @@
                 <input type="text" id="fgh" pattern="[a-zA-Z0-9]+@[a-z]+.\[a-z]{3}" title="Enter the Correct email" placeholder="*******@gmail.com">
                 <br><br>
                 <label for="hjk">Password</label>
-                <input type="password" pattern= "(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*]{8,}) " id="hjk" title="Enter a Strong Password">
+                <input type="password" 
+                id="hjk" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+                title="Password must contain at least one uppercase letter, one lowercase letter, one number, and be at least 8 characters long" 
+                required>
                 <br>
                 <br>
                 <label for="uio">Confirm Password:</label>
-                <input type="password" id="uio" pattern= "(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*]{8,})" title="Enter a Correct Password" >
+                <input type="password" 
+                id="uio" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+                title="Password must contain at least one uppercase letter, one lowercase letter, one number, and be at least 8 characters long" 
+                required >
                 <br>
                 <br>
                 <label for="tyu">Address:</label>
