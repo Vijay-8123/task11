@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-image: url(./background\ image.webp);background-size: cover;">
+    <center>
+        <form action="" style="background-image: url(./background\ image.webp);">
+            <h1>Reset Password</h1>
+            <label for="ikn">Email:</label>
+            <input type="text" id="ikn"  pattern="[a-zA-Z0-9]+@[a-z]+.\[a-z]{3}" title="Enter the Correct email" placeholder="*******@gmail.com">
+            <br><br>
+            <label for="plm">Enter new Password:</label>
+            <input type="password" id="plm" pattern= "(?=.*[A-Z]) (?=.*[a-z]) (?=.*[0-9]) (?=.*[!@#$%^&*] {8,})" title="Enter a Correct Password">
+            <br><br>
+            <label for="ijb">Confirm Password</label>
+            <input type="password" id="ijb" pattern= "(?=.*[A-Z]) (?=.*[a-z]) (?=.*[0-9]) (?=.*[!@#$%^&*] {8,})" title="Enter a Correct Password">
+            <br><br>
+            <button type="submit" style="color: black;" formaction="./log.html">Apply Changes</button>
+        </form>
+    </center>
+</body>
+</html>
